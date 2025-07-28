@@ -1,0 +1,32 @@
+.jumbotron {
+    padding-top: 6rem;
+    background-color: #e2edff;
+}
+
+#projects {
+    background-color: #e2edff;
+}
+
+/* Buat semua card proyek memiliki tinggi yang sama */
+#projects .card {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+  /* Paksa gambar tetap proporsional */
+#projects .card-img-top {
+    object-fit: cover;
+    height: 200px;
+}
+  /* Buat card-body mengambil sisa ruang */
+#projects .card-body {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+section {
+    padding-top: 5rem;
+}
